@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react'
 
-function App() {
+// const App = () => {
+//   return (
+//     <>
+//     hello world
+//     <p>
+//       <NewComponent/>
+//     </p>
+//     </>
+//   )
+// }
+
+// const NewComponent = () => {
+//   return <> jenisha khaiguli</>
+// }
+
+// export default App
+
+import React from 'react'
+// import {Resturant} from './component/basics/Resturant'
+// import UseState from "./component/Hooks/UseState";
+// import UseEffect from './component/Hooks/UseEffect';
+import UseReducer from './component/Hooks/UseReducer';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Resturant/> */}
+      {/* <UseEffect /> */}
+      <UseReducer/>
+    </>
   );
 }
 
-export default App;
+export default App
